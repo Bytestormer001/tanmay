@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <h1> Lists </h1>
+        <ul>
+            <li>Level 1: Beginner</li>
+            <li>Level 2: Intermediate</li>
+            <li>Level 3: Advanced</li>
+            <li>Level 4: Expert</li>
+        </ul>
+
+    <!--unordered list of levels-->
+    <ol>
+        <li>HTML Basics</li>
+        <li>CSS Fundamentals</li>
+        <li>JavaScript Essentials</li>
+        <li>Advanced Web Development</li>
+    </ol>
+    <!--ordered list of topics-->
+
+    <h1> TABLES</h1>
+    <table border="1">
+        <tr>
+            <th>Topic</th>
+            <th>Duration</th>
+            <th>Completed</th>
+        </tr>
+        <tr>
+            <td>HTML Basics</td>
+            <td>2 weeks</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>CSS Fundamentals</td>
+            <td>3 weeks</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>JavaScript Essentials</td>
+            <td>4 weeks</td>
+            <td>No</td>
+        </tr>
+        <!---->
+        <!---->
+        <!---->
+    </table>
+
+    <h1>Forms</h1>
+    <form action="/action.php">
+        <input type="text" name="username" placeholder="Enter Username">
+        <input type="password" name="password" placeholder="Enter Password">
+        <input type="submit" value="Login"> 
+        <br>
+
+        <input type="radio" value="class XI" name="class"> Class XI
+        <input type="radio" value="class XII" name="class"> Class XII
+        <br>
+
+        <label for="101">
+    
+        <input type="checkbox" name="vehicle1" value="Bike" id="101"> I have a bike
+
+        </label>
+        <br>
+
+        <!---->
+
+        <label for="102">
+        <input type="checkbox" name="vehicle2" value="Car" id="102"> I have a car
+        </label>
+        <br>
+        <label for="cars">Choose a car:</label>
+        <!--drop down menu using select tag-->
+        <select name="cars" id="cars">  
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <!---->
+        <br>
+
+    </form>
+    <!--simple form with username and password fields-->
+    <h3>Class and ID</h3>
+    <div id="id1" class="group1">   </div>
+    <div id="id2" class="group1">   </div>
+
+    <h3>Checkboxes (select fav subjects)</h3>
+
+    <label for="math">
+        <input type="checkbox" id="math" name="subject" value="math"> Mathematics
+    </label>
+    <label for="science">
+        <input type="checkbox" id="science" name="subject" value="science"> Science
+    </label>
+    <label for="history">
+        <input type="checkbox" id="history" name="subject" value="history"> History 
+    </label>
+    <!--checkboxes for selecting subjects-->
+
+    <h3>TEXTAREA</h3>
+
+
+<textarea name="feedback"id="101" placeholder="please give your valuable feedback here"
+    rows="4" cols="50"></textarea>
+
+    <h3>SELECT</h3>
+    <select name="city"
+    id="city">
+        <option value="newyork">New York</option>
+        <option value="losangeles">Los Angeles</option>
+        <option value="chicago">Chicago</option>
+        <option value="houston">Houston</option>
+    </select>
+    <!--dropdown menu for selecting city-->
+
+    <!--websites inside website (through iframe tag)-->
+    <h3> IFRAME EXAMPLE </h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=n8s3q0YF8xljBFdS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--iframe tag example to embed youtube video-->
+
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <!--video tag example to embed video-->
+
+    <!--completed pro lvl now time to css-->
+    <!--keep learning keep revising-->
+
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
